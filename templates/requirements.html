@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <span><h1>Planungsaufgabe Parkhaus:</h1></span></br>
+        <span>
+            Es ist eine Steuerungssoftware für die Zufahrtssteuerung eines Parkhauses
+            zu entwickeln:
+
+            Gegeben ist ein Parkhaus mit einer Kapazität von 180 Plätzen.
+            Für die Steuerung sind folgende Parameter zu beachten:
+
+            Von den 180 Plätzen sind 40 Plätze für Dauerkartenbesitzer reserviert. 
+            Eine Zufahrt für Kurzparker ist gegen Ausgabe eines Tickets immer
+            dann möglich, wenn mehr als 4 freie Plätze zur Verfügung stehen.
+    </br></br>
+            Die Ausfahrt eines Fahrzeuges erhöht die Anzahl der freien Plätze.
+    </br></br>
+            Dauerparker können über die 40 Plätze hinaus auf freie Plätze 
+            aus dem allgemeinen Kontingent eingelassen werden. 
+            Bei der Einfahrt muss deshalb zwischen den beiden Arten von
+            Nutzern unterschieden werden
+            Am Parkscheinautomaten soll die Anzahl der freien Plätze für
+            Kurzparker angezeigt werden, unterschreitet diese die Anzahl von 4
+            Plätzen, wird belegt angezeigt. Dauerparker können dennoch
+            einfahren, sofern noch Plätze aus dem reservierten Kontingent frei
+            sind.
+    </br></br>
+            Eine Ausfahrt soll immer möglich sein.
+            Die Parker sind zur Ermittlung der Kosten mit Kennzeichen, Einfahrt-
+            und Ausfahrtdatum in einer DB zu speichern.
+            Die Ermittlung der Belegung kann, muss aber nicht zwingend über
+            die DB ermittelt werden (Unter Verwendung der DB wäre das
+            System wiedereinschaltsicher).
+            Bei Ausfahrt wird die Parkgebühr am Automaten angezeigt, der
+            Einfachheit halber erfolgt die Bezahlung für Kurzparker durch einen
+            Button zur Bestätigung der Zahlung.
+            Dauerkartenbesitzer fahren nach Betätigung eines anderen Buttons
+            aus, wobei die Ausfahrtzeit in der DB vermerkt wird. Die Abrechnung
+            erfolgt später und ist nicht Gegenstand dieses Projektes
+    </br></br>
+            Entwerfen Sie die Software je nach Gruppenzugehörigkeit als 
+            Client / Server- Anwendung mit einem Webclient für die Zufahrtskontrolle.
+        </span>
+    </body>
+</html>
+
+
